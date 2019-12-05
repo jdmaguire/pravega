@@ -7,9 +7,9 @@
 #
 #     http://www.apache.org/licenses/LICENSE-2.0
 #
-FROM apache/bookkeeper:4.7.3
+FROM apache/bookkeeper:4.8.2
 
-ARG BK_VERSION=4.7.3
+ARG BK_VERSION=4.8.2
 ARG DISTRO_NAME=bookkeeper-all-${BK_VERSION}-bin
 ARG GPG_KEY=FD74402C
 
